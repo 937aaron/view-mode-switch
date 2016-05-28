@@ -57,6 +57,7 @@ table {
 button {
   border: none;
   background-color: white;
+  outline: none;
 }
 .gridbutton {
   display: inline-block;
@@ -75,11 +76,13 @@ button {
     width: 1500px;
     margin-top: 30px;
 }
+img {
+  float: left;
+}
 
 .item-description {
   display: inline-block;
   color: blue;
-  float:left;
   width: 150px;
   margin-right: 12px;
   border: 1px solid red;
