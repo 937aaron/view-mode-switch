@@ -49,11 +49,53 @@ table {
 
 /*End Of Reset */
 .container {
-  width: 1500px;
-  height: 750px;
-  border: 2px solid black;
+  height: 1000px;
+  width: 1200px;
+  border:1px solid blue;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif;
 
 }
+.buttonbar {
+  width: 150px;
+  margin-left: 900px;
+  margin-top: 50px
+  /*border-bottom: 5px solid #4713da;*/
+}
+.gridbutton {
+  /*float: right;*/
+  position: relative;
+  text-align: right;
+  display: inline-block;
+  color:#47a3da;
+  border: none;
+  background-color: white;
+  text-decoration: none;
+  outline: none;
+
+}
+.listbutton {
+  /*float: right;*/
+  position:relative;
+  display: inline-block;
+  color:#47a3da;
+  border: none;
+  background-color: white;
+  outline: none;
+}
+/*.row1:before {
+  position: relative;
+  border-bottom: 2px solid #47a3da;
+
+
+}*/
+.bumper {
+  margin-top: 25px;
+  border-bottom: 2px solid #47a3da;
+  width: 1050px;
+}
+
 button {
   border: none;
   background-color: white;
@@ -71,37 +113,75 @@ button {
   margin-top: 150px;
 }
 .item {
-    display: inline-block;
+    display: block;
+    position: relative;
+    height: 100px;
     border: 1px solid black;
-    width: 1500px;
+    width: 1050px;
     margin-top: 30px;
 }
 img {
   float: left;
+  display: inline-block;
+  position: relative;
+  height: 100px;
 }
 
 .item-description {
   display: inline-block;
-  color: blue;
+  position: relative;
+  color: #47a3da;
   width: 150px;
   margin-right: 12px;
-  border: 1px solid red;
+  margin-top: 35px;
+  /*border: 1px solid red;*/
+  font-size: 20px;
 }
 
 .price {
-  display: inline-block;
-  position: absolute;
-  padding-left: 45px;
+  margin-left: 350px;
+  /*border: 1px solid green;*/
+  margin-top: -25px;
+  margin-right: 850px;
+  font-size: 20px;
+  color: #c0c0c0;
+  /*display: inline;*/
+
+  /*display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  /*vertical-align: text-top;*/
+  /*position: relative;*/
+  /*margin-top: -1100px; */
+  /*position: absolute;*/
+  /*padding-left: 45px;*/
   /*margin-top: -50px;*/
-  /*padding-top: -50px;*/
-  border: 1px solid green;
+  /*padding-top: -100px;*/
 
 }
 .description {
-  display: inline-block;
-  position: relative;
-  margin-left: 250px;
-  border: 1px solid blue;
+  /*display: inline-block;*/
+  /*position: relative;*/
+  /*position: absolute;*/
+  margin-left: 500px;
+  margin-top: -25px;
+  /*border: 1px solid blue;*/
   max-width: 350px;
+  color: #47a3da;
   /*max-height: 350px;*/
+}
+.addButton {
+  color: white;
+  /*display: inline-block;*/
+  margin-left: 875px;
+  margin-top: -32px;
+  border: 1px solid #47a3da;
+  border-radius: 5px;
+  position: relative;
+  /*margin-top: 25px;*/
+  /*margin-top: -500px;*/
+  padding: 8px 12px;
+  background-color: #47a3da;
+  width: 120px;
+
 }
